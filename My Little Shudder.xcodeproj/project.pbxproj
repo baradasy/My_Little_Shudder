@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130FDC9DE9852532B7C807D1 /* Pods_My_Little_Shudder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2FC180057A1F4DE43D885 /* Pods_My_Little_Shudder.framework */; };
 		C97C36322188A2C300605616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36312188A2C300605616 /* AppDelegate.swift */; };
-		C97C36342188A2C300605616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36332188A2C300605616 /* ViewController.swift */; };
 		C97C36372188A2C300605616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97C36352188A2C300605616 /* Main.storyboard */; };
 		C97C36392188A2C600605616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97C36382188A2C600605616 /* Assets.xcassets */; };
 		C97C363C2188A2C600605616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97C363A2188A2C600605616 /* LaunchScreen.storyboard */; };
+		C97C36442188A39C00605616 /* ShudderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36432188A39C00605616 /* ShudderTableViewController.swift */; };
+		C97C36462188A40D00605616 /* GalleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36452188A40D00605616 /* GalleryTableViewCell.swift */; };
+		C97C36482188A6CF00605616 /* ShudderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36472188A6CF00605616 /* ShudderModel.swift */; };
+		C97C364A2188B83500605616 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36492188B83500605616 /* Constants.swift */; };
+		C97C364C2188C1B200605616 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C364B2188C1B200605616 /* ImageCollectionViewCell.swift */; };
+		C97C36522189318500605616 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C36512189318500605616 /* HeroTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EF7AEFFD750EEBEBAF47504 /* Pods-My Little Shudder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Little Shudder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Little Shudder/Pods-My Little Shudder.debug.xcconfig"; sourceTree = "<group>"; };
+		10C2FC180057A1F4DE43D885 /* Pods_My_Little_Shudder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Little_Shudder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71275F6DC74CCEC31BC56F43 /* Pods-My Little Shudder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Little Shudder.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Little Shudder/Pods-My Little Shudder.release.xcconfig"; sourceTree = "<group>"; };
 		C97C362E2188A2C300605616 /* My Little Shudder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Little Shudder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97C36312188A2C300605616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C97C36332188A2C300605616 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C97C36362188A2C300605616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C97C36382188A2C600605616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C97C363B2188A2C600605616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C97C363D2188A2C600605616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97C36432188A39C00605616 /* ShudderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShudderTableViewController.swift; sourceTree = "<group>"; };
+		C97C36452188A40D00605616 /* GalleryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTableViewCell.swift; sourceTree = "<group>"; };
+		C97C36472188A6CF00605616 /* ShudderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShudderModel.swift; sourceTree = "<group>"; };
+		C97C36492188B83500605616 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C97C364B2188C1B200605616 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C97C36512189318500605616 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130FDC9DE9852532B7C807D1 /* Pods_My_Little_Shudder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8B0E33C16FAD9B055ACFBAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF7AEFFD750EEBEBAF47504 /* Pods-My Little Shudder.debug.xcconfig */,
+				71275F6DC74CCEC31BC56F43 /* Pods-My Little Shudder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6F5D3DBD9DCAF9A4E0D9254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C2FC180057A1F4DE43D885 /* Pods_My_Little_Shudder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C97C36252188A2C300605616 = {
 			isa = PBXGroup;
 			children = (
 				C97C36302188A2C300605616 /* My Little Shudder */,
 				C97C362F2188A2C300605616 /* Products */,
+				A8B0E33C16FAD9B055ACFBAD /* Pods */,
+				C6F5D3DBD9DCAF9A4E0D9254 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +89,13 @@
 			isa = PBXGroup;
 			children = (
 				C97C36312188A2C300605616 /* AppDelegate.swift */,
-				C97C36332188A2C300605616 /* ViewController.swift */,
+				C97C36492188B83500605616 /* Constants.swift */,
 				C97C36352188A2C300605616 /* Main.storyboard */,
+				C97C36432188A39C00605616 /* ShudderTableViewController.swift */,
+				C97C36452188A40D00605616 /* GalleryTableViewCell.swift */,
+				C97C36512189318500605616 /* HeroTableViewCell.swift */,
+				C97C364B2188C1B200605616 /* ImageCollectionViewCell.swift */,
+				C97C36472188A6CF00605616 /* ShudderModel.swift */,
 				C97C36382188A2C600605616 /* Assets.xcassets */,
 				C97C363A2188A2C600605616 /* LaunchScreen.storyboard */,
 				C97C363D2188A2C600605616 /* Info.plist */,
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C97C36402188A2C600605616 /* Build configuration list for PBXNativeTarget "My Little Shudder" */;
 			buildPhases = (
+				F8CA8403C94EDAAA90FAF289 /* [CP] Check Pods Manifest.lock */,
 				C97C362A2188A2C300605616 /* Sources */,
 				C97C362B2188A2C300605616 /* Frameworks */,
 				C97C362C2188A2C300605616 /* Resources */,
+				1354D680057E2AFF45E477D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +171,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1354D680057E2AFF45E477D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My Little Shudder/Pods-My Little Shudder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Little Shudder/Pods-My Little Shudder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CA8403C94EDAAA90FAF289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Little Shudder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C97C362A2188A2C300605616 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97C36342188A2C300605616 /* ViewController.swift in Sources */,
+				C97C36442188A39C00605616 /* ShudderTableViewController.swift in Sources */,
+				C97C364A2188B83500605616 /* Constants.swift in Sources */,
+				C97C364C2188C1B200605616 /* ImageCollectionViewCell.swift in Sources */,
+				C97C36522189318500605616 /* HeroTableViewCell.swift in Sources */,
 				C97C36322188A2C300605616 /* AppDelegate.swift in Sources */,
+				C97C36462188A40D00605616 /* GalleryTableViewCell.swift in Sources */,
+				C97C36482188A6CF00605616 /* ShudderModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +365,7 @@
 		};
 		C97C36412188A2C600605616 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF7AEFFD750EEBEBAF47504 /* Pods-My Little Shudder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +378,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stimoshpolskiy.My-Little-Shudder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C97C36422188A2C600605616 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71275F6DC74CCEC31BC56F43 /* Pods-My Little Shudder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stimoshpolskiy.My-Little-Shudder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
